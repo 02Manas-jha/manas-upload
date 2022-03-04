@@ -28,12 +28,14 @@
         
         
     <body>
-        <h1>
-            Hello world!!
-        </h1>
-	<input type="file" id="fileInput" hidden/>
-        <button class="button button1" type="button" id="uploadBtn">upload</button>
-        <button class="button button2" type="submit" id="submit">submit</button>
+        <h1>Hello world!!</h1>
+	    
+        <form action="" method="post" enctype="multipart/form-data">
+            <input type="file" id="fileInput" hidden/>
+            
+            <button class="button button1" type="button" id="uploadBtn">upload</button>
+            <button class="button button2" type="submit" id="submit">submit</button>
+        </form>
 
 	<script>uploadBtn.addEventListener('click', () => fileInput.click())</script>
     </body>    
