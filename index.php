@@ -1,3 +1,6 @@
+<?php
+include "db_upload.php";
+?>
 <html>
     <head>
         <style>
